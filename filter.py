@@ -17,7 +17,7 @@ filtered_df = filtered_df[required_columns]
 columns_to_sum = ['pop', 'white_pop', 'black_pop', 'asian_pop', 'indian_pop', 'pacific_pop', 'two_pop', 'not_hisp_pop', 'hisp_pop']
 
 # Group by 
-aggregated_df = filtered_df.groupby([ 'state','year'])[columns_to_sum].sum().reset_index()
+aggregated_df = filtered_df.groupby([ 'state','year'])[columns_to_sum].sum()
 
 
 aggregated_df.to_csv('filtered_data.csv', index=False)
