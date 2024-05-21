@@ -1,0 +1,9 @@
+Id,Label,Type,Size
+1,African American/Black,Race,61740
+2,American Indian/Alaska Native,Race,67230
+3,Asian,Race,116060
+4,Hispanic/Latino,Race,71120
+5,White,Race,102540
+6,Highschool_Grad_Percent,Attribute,0
+7,Bachelors_Degree_Percent,Attribute,0
+8,Unemployment,Attribute,0
