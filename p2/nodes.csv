@@ -7,3 +7,5 @@ Id,Label,Type,Size
 6,Highschool_Grad_Percent,Attribute,0
 7,Bachelors_Degree_Percent,Attribute,0
 8,Unemployment,Attribute,0
+9,Death_Rate_Index,Attribute,0
+10,Preterm_Birth_Index,Attribute,0
