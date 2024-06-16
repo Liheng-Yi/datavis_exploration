@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a9cce5215e04f10b36d25b485f61956 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9a9cce5215e04f10b36d25b485f61956" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a9cce5215e04f10b36d25b485f61956 = L.map(
+                "map_9a9cce5215e04f10b36d25b485f61956",
+                {
+                    center: [36.7783, -119.4179],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7b2beded803914d2da0c9db95c09e39 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b7b2beded803914d2da0c9db95c09e39.addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+            var marker_c4e5c6b958c756f124db4483fd4aa00b = L.marker(
+                [37.6090291, -121.899142],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_08e95a571463b1b96b316db435233fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68b9fae664b21d315eee9fb4ffdabb0e = $(`<div id="html_68b9fae664b21d315eee9fb4ffdabb0e" style="width: 100.0%; height: 100.0%;">Alameda County<br>Violent Crime: 510</div>`)[0];
+                popup_08e95a571463b1b96b316db435233fa6.setContent(html_68b9fae664b21d315eee9fb4ffdabb0e);
+            
+        
+
+        marker_c4e5c6b958c756f124db4483fd4aa00b.bindPopup(popup_08e95a571463b1b96b316db435233fa6)
+        ;
+
+        
+    
+    
+            marker_c4e5c6b958c756f124db4483fd4aa00b.bindTooltip(
+                `<div>
+                     Alameda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f4619a022736686284c7a03e34e1c69 = L.marker(
+                [39.6519275, -121.5858444],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_5bee66997ef51c0de4943bfe43e8ba3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fda80547310fc1f07bf24d94f05cfc53 = $(`<div id="html_fda80547310fc1f07bf24d94f05cfc53" style="width: 100.0%; height: 100.0%;">Butte County<br>Violent Crime: 3155</div>`)[0];
+                popup_5bee66997ef51c0de4943bfe43e8ba3c.setContent(html_fda80547310fc1f07bf24d94f05cfc53);
+            
+        
+
+        marker_7f4619a022736686284c7a03e34e1c69.bindPopup(popup_5bee66997ef51c0de4943bfe43e8ba3c)
+        ;
+
+        
+    
+    
+            marker_7f4619a022736686284c7a03e34e1c69.bindTooltip(
+                `<div>
+                     Butte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5113efc0af939324a8cccd8d7de34c81 = L.marker(
+                [37.9034806, -121.9175345],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_1dc1fee2942768e7737528db8256326a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cee98b25fbb83c324accaa2ead2fb991 = $(`<div id="html_cee98b25fbb83c324accaa2ead2fb991" style="width: 100.0%; height: 100.0%;">Contra Costa County<br>Violent Crime: 426</div>`)[0];
+                popup_1dc1fee2942768e7737528db8256326a.setContent(html_cee98b25fbb83c324accaa2ead2fb991);
+            
+        
+
+        marker_5113efc0af939324a8cccd8d7de34c81.bindPopup(popup_1dc1fee2942768e7737528db8256326a)
+        ;
+
+        
+    
+    
+            marker_5113efc0af939324a8cccd8d7de34c81.bindTooltip(
+                `<div>
+                     Contra Costa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79cfa2fd314f8f65d53565ccba8eadc0 = L.marker(
+                [38.7574137, -120.5276129],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_92e0f0ac8148e940f6c41efb115c6b2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a578b37833542e459a76d91e9613ee0f = $(`<div id="html_a578b37833542e459a76d91e9613ee0f" style="width: 100.0%; height: 100.0%;">El Dorado3 County<br>Violent Crime: 252</div>`)[0];
+                popup_92e0f0ac8148e940f6c41efb115c6b2b.setContent(html_a578b37833542e459a76d91e9613ee0f);
+            
+        
+
+        marker_79cfa2fd314f8f65d53565ccba8eadc0.bindPopup(popup_92e0f0ac8148e940f6c41efb115c6b2b)
+        ;
+
+        
+    
+    
+            marker_79cfa2fd314f8f65d53565ccba8eadc0.bindTooltip(
+                `<div>
+                     El Dorado3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f774e6cb6065447c585747890136b955 = L.marker(
+                [36.7394421, -119.78483],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_68ccacdf87d3536b06cfa1fda65d22a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aa0dd7c1457e74cb46ad4d128ece135 = $(`<div id="html_1aa0dd7c1457e74cb46ad4d128ece135" style="width: 100.0%; height: 100.0%;">Fresno County<br>Violent Crime: 962</div>`)[0];
+                popup_68ccacdf87d3536b06cfa1fda65d22a9.setContent(html_1aa0dd7c1457e74cb46ad4d128ece135);
+            
+        
+
+        marker_f774e6cb6065447c585747890136b955.bindPopup(popup_68ccacdf87d3536b06cfa1fda65d22a9)
+        ;
+
+        
+    
+    
+            marker_f774e6cb6065447c585747890136b955.bindTooltip(
+                `<div>
+                     Fresno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_933ae41c24368ac1e6e6e3517c61303a = L.marker(
+                [33.0305487, -115.3595666],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_98801b167a621a18c32c22b10560a816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd9dedb48ed7326299199395235995c0 = $(`<div id="html_fd9dedb48ed7326299199395235995c0" style="width: 100.0%; height: 100.0%;">Imperial3 County<br>Violent Crime: 219</div>`)[0];
+                popup_98801b167a621a18c32c22b10560a816.setContent(html_fd9dedb48ed7326299199395235995c0);
+            
+        
+
+        marker_933ae41c24368ac1e6e6e3517c61303a.bindPopup(popup_98801b167a621a18c32c22b10560a816)
+        ;
+
+        
+    
+    
+            marker_933ae41c24368ac1e6e6e3517c61303a.bindTooltip(
+                `<div>
+                     Imperial3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bea6850a932d6252453ac4c0b032f8d6 = L.marker(
+                [35.3145701, -118.753822],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_61e774692ce6024d1a27a0b96fcdde55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd0c5f2fc3af877a7c562cbe52089666 = $(`<div id="html_dd0c5f2fc3af877a7c562cbe52089666" style="width: 100.0%; height: 100.0%;">Kern County<br>Violent Crime: 2235</div>`)[0];
+                popup_61e774692ce6024d1a27a0b96fcdde55.setContent(html_dd0c5f2fc3af877a7c562cbe52089666);
+            
+        
+
+        marker_bea6850a932d6252453ac4c0b032f8d6.bindPopup(popup_61e774692ce6024d1a27a0b96fcdde55)
+        ;
+
+        
+    
+    
+            marker_bea6850a932d6252453ac4c0b032f8d6.bindTooltip(
+                `<div>
+                     Kern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e659c4cb978d80a2930737bcd11e930b = L.marker(
+                [36.0784807, -119.7956342],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_5d3b62727950a9e4a81fee6726b17533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0575d4a1703c577dc36ccd29c46162f6 = $(`<div id="html_0575d4a1703c577dc36ccd29c46162f6" style="width: 100.0%; height: 100.0%;">Kings3 County<br>Violent Crime: 122</div>`)[0];
+                popup_5d3b62727950a9e4a81fee6726b17533.setContent(html_0575d4a1703c577dc36ccd29c46162f6);
+            
+        
+
+        marker_e659c4cb978d80a2930737bcd11e930b.bindPopup(popup_5d3b62727950a9e4a81fee6726b17533)
+        ;
+
+        
+    
+    
+            marker_e659c4cb978d80a2930737bcd11e930b.bindTooltip(
+                `<div>
+                     Kings3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_047cb1d14d81e74e0b722bee6921137d = L.marker(
+                [34.063736199999994, -118.358937580366],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_776d2a9d6b33f75fd41270f887656969 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_315425e28f1adbc3c79b4d6a14066973 = $(`<div id="html_315425e28f1adbc3c79b4d6a14066973" style="width: 100.0%; height: 100.0%;">Los Angeles County<br>Violent Crime: 5173</div>`)[0];
+                popup_776d2a9d6b33f75fd41270f887656969.setContent(html_315425e28f1adbc3c79b4d6a14066973);
+            
+        
+
+        marker_047cb1d14d81e74e0b722bee6921137d.bindPopup(popup_776d2a9d6b33f75fd41270f887656969)
+        ;
+
+        
+    
+    
+            marker_047cb1d14d81e74e0b722bee6921137d.bindTooltip(
+                `<div>
+                     Los Angeles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da1271c9a9483283e7ac1f290a205b5d = L.marker(
+                [37.1716264, -119.7737991],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_f9c621f67019206f91eb32197f686c33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68132356f693e5442395ce9d283e1d3b = $(`<div id="html_68132356f693e5442395ce9d283e1d3b" style="width: 100.0%; height: 100.0%;">Madera County<br>Violent Crime: 334</div>`)[0];
+                popup_f9c621f67019206f91eb32197f686c33.setContent(html_68132356f693e5442395ce9d283e1d3b);
+            
+        
+
+        marker_da1271c9a9483283e7ac1f290a205b5d.bindPopup(popup_f9c621f67019206f91eb32197f686c33)
+        ;
+
+        
+    
+    
+            marker_da1271c9a9483283e7ac1f290a205b5d.bindTooltip(
+                `<div>
+                     Madera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5642f5ffbd4449bafc8614a6ec53139e = L.marker(
+                [38.0409144, -122.6199638],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_27c14de2546c7dc039dd53b1ddcc3193 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3842b48500a77aba7ff4337ef055dfe = $(`<div id="html_c3842b48500a77aba7ff4337ef055dfe" style="width: 100.0%; height: 100.0%;">Marin County<br>Violent Crime: 95</div>`)[0];
+                popup_27c14de2546c7dc039dd53b1ddcc3193.setContent(html_c3842b48500a77aba7ff4337ef055dfe);
+            
+        
+
+        marker_5642f5ffbd4449bafc8614a6ec53139e.bindPopup(popup_27c14de2546c7dc039dd53b1ddcc3193)
+        ;
+
+        
+    
+    
+            marker_5642f5ffbd4449bafc8614a6ec53139e.bindTooltip(
+                `<div>
+                     Marin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81e7d0119a9812b64e361883d33c8c9d = L.marker(
+                [37.1641544, -120.7678602],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_921afe63b68019c8c7f6a48674cb70a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccbcb8f1cfd412c97818da6d8a3fbd38 = $(`<div id="html_ccbcb8f1cfd412c97818da6d8a3fbd38" style="width: 100.0%; height: 100.0%;">Merced County<br>Violent Crime: 432</div>`)[0];
+                popup_921afe63b68019c8c7f6a48674cb70a3.setContent(html_ccbcb8f1cfd412c97818da6d8a3fbd38);
+            
+        
+
+        marker_81e7d0119a9812b64e361883d33c8c9d.bindPopup(popup_921afe63b68019c8c7f6a48674cb70a3)
+        ;
+
+        
+    
+    
+            marker_81e7d0119a9812b64e361883d33c8c9d.bindTooltip(
+                `<div>
+                     Merced
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e85bf5b2134b784bca18164314a0c03 = L.marker(
+                [36.2231079, -121.387742],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_bca94aee4201132261c3a9e4f0042812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7594d38b2cfe1de84a987aa8f9445841 = $(`<div id="html_7594d38b2cfe1de84a987aa8f9445841" style="width: 100.0%; height: 100.0%;">Monterey County<br>Violent Crime: 244</div>`)[0];
+                popup_bca94aee4201132261c3a9e4f0042812.setContent(html_7594d38b2cfe1de84a987aa8f9445841);
+            
+        
+
+        marker_4e85bf5b2134b784bca18164314a0c03.bindPopup(popup_bca94aee4201132261c3a9e4f0042812)
+        ;
+
+        
+    
+    
+            marker_4e85bf5b2134b784bca18164314a0c03.bindTooltip(
+                `<div>
+                     Monterey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1750a3263225747071536001012b134 = L.marker(
+                [38.4898675, -122.3218414],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_aad7c050369a8ed07a7a539f6f7b8055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cc1064bb9af6317ec651a7941c6422c = $(`<div id="html_7cc1064bb9af6317ec651a7941c6422c" style="width: 100.0%; height: 100.0%;">Napa County<br>Violent Crime: 79</div>`)[0];
+                popup_aad7c050369a8ed07a7a539f6f7b8055.setContent(html_7cc1064bb9af6317ec651a7941c6422c);
+            
+        
+
+        marker_a1750a3263225747071536001012b134.bindPopup(popup_aad7c050369a8ed07a7a539f6f7b8055)
+        ;
+
+        
+    
+    
+            marker_a1750a3263225747071536001012b134.bindTooltip(
+                `<div>
+                     Napa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54272366c95b39ee832e547bf68377b4 = L.marker(
+                [33.7500378, -117.8704931],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_dba8bdbbf8f75c8f78fa5f4052ebc5d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_668b0b72c5f8a3287970bc78910d6415 = $(`<div id="html_668b0b72c5f8a3287970bc78910d6415" style="width: 100.0%; height: 100.0%;">Orange County<br>Violent Crime: 213</div>`)[0];
+                popup_dba8bdbbf8f75c8f78fa5f4052ebc5d2.setContent(html_668b0b72c5f8a3287970bc78910d6415);
+            
+        
+
+        marker_54272366c95b39ee832e547bf68377b4.bindPopup(popup_dba8bdbbf8f75c8f78fa5f4052ebc5d2)
+        ;
+
+        
+    
+    
+            marker_54272366c95b39ee832e547bf68377b4.bindTooltip(
+                `<div>
+                     Orange
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0dd4262f30cfdb6f8636e75a88148c2 = L.marker(
+                [39.1012064, -120.7650606],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_2542f5460caf73aeabdc08b357ccc2b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05cc49d3bde569ce17a5f2cc6455ffce = $(`<div id="html_05cc49d3bde569ce17a5f2cc6455ffce" style="width: 100.0%; height: 100.0%;">Placer County<br>Violent Crime: 299</div>`)[0];
+                popup_2542f5460caf73aeabdc08b357ccc2b6.setContent(html_05cc49d3bde569ce17a5f2cc6455ffce);
+            
+        
+
+        marker_e0dd4262f30cfdb6f8636e75a88148c2.bindPopup(popup_2542f5460caf73aeabdc08b357ccc2b6)
+        ;
+
+        
+    
+    
+            marker_e0dd4262f30cfdb6f8636e75a88148c2.bindTooltip(
+                `<div>
+                     Placer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_793f350df887f750358a52e4311f4182 = L.marker(
+                [33.9824949, -117.374238],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_2d707d1241dec3068826e0b1e516cae4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d48ca4fd9f09fb72394b278649038bc = $(`<div id="html_3d48ca4fd9f09fb72394b278649038bc" style="width: 100.0%; height: 100.0%;">Riverside County<br>Violent Crime: 885</div>`)[0];
+                popup_2d707d1241dec3068826e0b1e516cae4.setContent(html_3d48ca4fd9f09fb72394b278649038bc);
+            
+        
+
+        marker_793f350df887f750358a52e4311f4182.bindPopup(popup_2d707d1241dec3068826e0b1e516cae4)
+        ;
+
+        
+    
+    
+            marker_793f350df887f750358a52e4311f4182.bindTooltip(
+                `<div>
+                     Riverside
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25827e040357ab4f95a87490e5e50e27 = L.marker(
+                [38.5810606, -121.493895],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_67c57c03f3d75505d2ab4e7dbd016891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_456ece9c7673de5088ed4cee0558eece = $(`<div id="html_456ece9c7673de5088ed4cee0558eece" style="width: 100.0%; height: 100.0%;">Sacramento County<br>Violent Crime: 3117</div>`)[0];
+                popup_67c57c03f3d75505d2ab4e7dbd016891.setContent(html_456ece9c7673de5088ed4cee0558eece);
+            
+        
+
+        marker_25827e040357ab4f95a87490e5e50e27.bindPopup(popup_67c57c03f3d75505d2ab4e7dbd016891)
+        ;
+
+        
+    
+    
+            marker_25827e040357ab4f95a87490e5e50e27.bindTooltip(
+                `<div>
+                     Sacramento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a5fe169de1878a562ca1bdb7991c19f = L.marker(
+                [36.6248089, -121.1177379],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_6d1917965f8e3623ece4244bdb5fb5a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1072dcaeaf7e7ee82fa4034f0409d142 = $(`<div id="html_1072dcaeaf7e7ee82fa4034f0409d142" style="width: 100.0%; height: 100.0%;">San Benito County<br>Violent Crime: 41</div>`)[0];
+                popup_6d1917965f8e3623ece4244bdb5fb5a7.setContent(html_1072dcaeaf7e7ee82fa4034f0409d142);
+            
+        
+
+        marker_4a5fe169de1878a562ca1bdb7991c19f.bindPopup(popup_6d1917965f8e3623ece4244bdb5fb5a7)
+        ;
+
+        
+    
+    
+            marker_4a5fe169de1878a562ca1bdb7991c19f.bindTooltip(
+                `<div>
+                     San Benito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5be0a51889a74e51a78c03cef5d35778 = L.marker(
+                [34.1081621, -117.28946],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_e6e40c10d9e8ada1dd69509437db1ad1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_265634ca08e00f535156cca56989e0b1 = $(`<div id="html_265634ca08e00f535156cca56989e0b1" style="width: 100.0%; height: 100.0%;">San Bernardino County<br>Violent Crime: 920</div>`)[0];
+                popup_e6e40c10d9e8ada1dd69509437db1ad1.setContent(html_265634ca08e00f535156cca56989e0b1);
+            
+        
+
+        marker_5be0a51889a74e51a78c03cef5d35778.bindPopup(popup_e6e40c10d9e8ada1dd69509437db1ad1)
+        ;
+
+        
+    
+    
+            marker_5be0a51889a74e51a78c03cef5d35778.bindTooltip(
+                `<div>
+                     San Bernardino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_024736392c00fb1270d1f34d7f7981a6 = L.marker(
+                [32.7174202, -117.162772],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_100eeaef0e143820b38ba0c04106e597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_285c87fc9ace0f68a9cdfa595e3d12b5 = $(`<div id="html_285c87fc9ace0f68a9cdfa595e3d12b5" style="width: 100.0%; height: 100.0%;">San Diego County<br>Violent Crime: 1161</div>`)[0];
+                popup_100eeaef0e143820b38ba0c04106e597.setContent(html_285c87fc9ace0f68a9cdfa595e3d12b5);
+            
+        
+
+        marker_024736392c00fb1270d1f34d7f7981a6.bindPopup(popup_100eeaef0e143820b38ba0c04106e597)
+        ;
+
+        
+    
+    
+            marker_024736392c00fb1270d1f34d7f7981a6.bindTooltip(
+                `<div>
+                     San Diego
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9875ad97927e29a90594aba0355e020 = L.marker(
+                [37.9372901, -121.2773719],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_dfb7e64cb3165dccac4e9359c6548877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_765ee3bdc00a59f974fdfbb742b0a77a = $(`<div id="html_765ee3bdc00a59f974fdfbb742b0a77a" style="width: 100.0%; height: 100.0%;">San Joaquin County<br>Violent Crime: 845</div>`)[0];
+                popup_dfb7e64cb3165dccac4e9359c6548877.setContent(html_765ee3bdc00a59f974fdfbb742b0a77a);
+            
+        
+
+        marker_c9875ad97927e29a90594aba0355e020.bindPopup(popup_dfb7e64cb3165dccac4e9359c6548877)
+        ;
+
+        
+    
+    
+            marker_c9875ad97927e29a90594aba0355e020.bindTooltip(
+                `<div>
+                     San Joaquin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_514711aef66810e6c01abf8dc00974d1 = L.marker(
+                [35.3540209, -120.375716],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_3408bf26425acf741e6a068e9ddc33ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb4cf9ea9b2e805276945ff7e78d8ea1 = $(`<div id="html_bb4cf9ea9b2e805276945ff7e78d8ea1" style="width: 100.0%; height: 100.0%;">San Luis Obispo County<br>Violent Crime: 3324</div>`)[0];
+                popup_3408bf26425acf741e6a068e9ddc33ad.setContent(html_bb4cf9ea9b2e805276945ff7e78d8ea1);
+            
+        
+
+        marker_514711aef66810e6c01abf8dc00974d1.bindPopup(popup_3408bf26425acf741e6a068e9ddc33ad)
+        ;
+
+        
+    
+    
+            marker_514711aef66810e6c01abf8dc00974d1.bindTooltip(
+                `<div>
+                     San Luis Obispo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2f232588282ee64ea98c46a1f0fce91 = L.marker(
+                [37.496904, -122.3330573],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_500728c3576fc1c0e50b663baa0f5219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d4487e0e56503ce28ec9dd1bf5b7256 = $(`<div id="html_6d4487e0e56503ce28ec9dd1bf5b7256" style="width: 100.0%; height: 100.0%;">San Mateo County<br>Violent Crime: 330</div>`)[0];
+                popup_500728c3576fc1c0e50b663baa0f5219.setContent(html_6d4487e0e56503ce28ec9dd1bf5b7256);
+            
+        
+
+        marker_f2f232588282ee64ea98c46a1f0fce91.bindPopup(popup_500728c3576fc1c0e50b663baa0f5219)
+        ;
+
+        
+    
+    
+            marker_f2f232588282ee64ea98c46a1f0fce91.bindTooltip(
+                `<div>
+                     San Mateo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b513682765b20415ed7b1ca496be9c5a = L.marker(
+                [34.4221319, -119.702667],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_6461bd17e80f00dfcc35610c8330581a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ffc8b2a5c7367b10b1e089d2cb543d2 = $(`<div id="html_9ffc8b2a5c7367b10b1e089d2cb543d2" style="width: 100.0%; height: 100.0%;">Santa Barbara County<br>Violent Crime: 266</div>`)[0];
+                popup_6461bd17e80f00dfcc35610c8330581a.setContent(html_9ffc8b2a5c7367b10b1e089d2cb543d2);
+            
+        
+
+        marker_b513682765b20415ed7b1ca496be9c5a.bindPopup(popup_6461bd17e80f00dfcc35610c8330581a)
+        ;
+
+        
+    
+    
+            marker_b513682765b20415ed7b1ca496be9c5a.bindTooltip(
+                `<div>
+                     Santa Barbara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_418ae0ec006571694175e560cb60006e = L.marker(
+                [37.2333253, -121.6846349],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_284fd3da487f2bf1fa603e9d4a3181af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ee11521f08910832f37209ff4a2750 = $(`<div id="html_c8ee11521f08910832f37209ff4a2750" style="width: 100.0%; height: 100.0%;">Santa Clara County<br>Violent Crime: 232</div>`)[0];
+                popup_284fd3da487f2bf1fa603e9d4a3181af.setContent(html_c8ee11521f08910832f37209ff4a2750);
+            
+        
+
+        marker_418ae0ec006571694175e560cb60006e.bindPopup(popup_284fd3da487f2bf1fa603e9d4a3181af)
+        ;
+
+        
+    
+    
+            marker_418ae0ec006571694175e560cb60006e.bindTooltip(
+                `<div>
+                     Santa Clara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba85c4f65907eb7cdb15043e74cdbe73 = L.marker(
+                [34.8228005, -118.95022],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_e8ba9e04451cebfbdd216dffd5d64d91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faa1e454931d061d4893d014e3c7d6b6 = $(`<div id="html_faa1e454931d061d4893d014e3c7d6b6" style="width: 100.0%; height: 100.0%;">Santa Cruz County<br>Violent Crime: 295</div>`)[0];
+                popup_e8ba9e04451cebfbdd216dffd5d64d91.setContent(html_faa1e454931d061d4893d014e3c7d6b6);
+            
+        
+
+        marker_ba85c4f65907eb7cdb15043e74cdbe73.bindPopup(popup_e8ba9e04451cebfbdd216dffd5d64d91)
+        ;
+
+        
+    
+    
+            marker_ba85c4f65907eb7cdb15043e74cdbe73.bindTooltip(
+                `<div>
+                     Santa Cruz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db7e690e2ed38f1af8a6fd4a0c75e3f9 = L.marker(
+                [40.7965121, -121.9979194],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_232c79492346ec43cd4c5a28a43f14ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c489e6ae17ab037f875da2189ef4ce57 = $(`<div id="html_c489e6ae17ab037f875da2189ef4ce57" style="width: 100.0%; height: 100.0%;">Shasta County<br>Violent Crime: 697</div>`)[0];
+                popup_232c79492346ec43cd4c5a28a43f14ae.setContent(html_c489e6ae17ab037f875da2189ef4ce57);
+            
+        
+
+        marker_db7e690e2ed38f1af8a6fd4a0c75e3f9.bindPopup(popup_232c79492346ec43cd4c5a28a43f14ae)
+        ;
+
+        
+    
+    
+            marker_db7e690e2ed38f1af8a6fd4a0c75e3f9.bindTooltip(
+                `<div>
+                     Shasta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8051f77a29ba6ee7084a6232cc418cfb = L.marker(
+                [38.2218938, -121.9163555],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_6cf41f3df8990707991f1c8e1a9cd8fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_add56083923a6317aa16b0539cff23b3 = $(`<div id="html_add56083923a6317aa16b0539cff23b3" style="width: 100.0%; height: 100.0%;">Solano County<br>Violent Crime: 101</div>`)[0];
+                popup_6cf41f3df8990707991f1c8e1a9cd8fb.setContent(html_add56083923a6317aa16b0539cff23b3);
+            
+        
+
+        marker_8051f77a29ba6ee7084a6232cc418cfb.bindPopup(popup_6cf41f3df8990707991f1c8e1a9cd8fb)
+        ;
+
+        
+    
+    
+            marker_8051f77a29ba6ee7084a6232cc418cfb.bindTooltip(
+                `<div>
+                     Solano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a33a67ffc0ce00080896ede203dea5b = L.marker(
+                [38.5110803, -122.8473388],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_3b6457ba696faa36ed620ad301734a1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30fc846a69969638a6dffd5554817012 = $(`<div id="html_30fc846a69969638a6dffd5554817012" style="width: 100.0%; height: 100.0%;">Sonoma County<br>Violent Crime: 638</div>`)[0];
+                popup_3b6457ba696faa36ed620ad301734a1a.setContent(html_30fc846a69969638a6dffd5554817012);
+            
+        
+
+        marker_0a33a67ffc0ce00080896ede203dea5b.bindPopup(popup_3b6457ba696faa36ed620ad301734a1a)
+        ;
+
+        
+    
+    
+            marker_0a33a67ffc0ce00080896ede203dea5b.bindTooltip(
+                `<div>
+                     Sonoma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f322b42a70eb63714447e8a788ebf1e = L.marker(
+                [37.5500871, -121.0501425],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_897dd30e39e4e857fcc2e0693dec3297 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84faeeccf5027827401b5ee62d1f5660 = $(`<div id="html_84faeeccf5027827401b5ee62d1f5660" style="width: 100.0%; height: 100.0%;">Stanislaus County<br>Violent Crime: 394</div>`)[0];
+                popup_897dd30e39e4e857fcc2e0693dec3297.setContent(html_84faeeccf5027827401b5ee62d1f5660);
+            
+        
+
+        marker_2f322b42a70eb63714447e8a788ebf1e.bindPopup(popup_897dd30e39e4e857fcc2e0693dec3297)
+        ;
+
+        
+    
+    
+            marker_2f322b42a70eb63714447e8a788ebf1e.bindTooltip(
+                `<div>
+                     Stanislaus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71fcdc7e2f5d43c7e8f7e806e15d618a = L.marker(
+                [38.9509675, -121.697088],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_4fdec684349f6817a0afc2c4920879b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daf15c065e1d3ad26149f7ea88a7f98d = $(`<div id="html_daf15c065e1d3ad26149f7ea88a7f98d" style="width: 100.0%; height: 100.0%;">Sutter3 County<br>Violent Crime: 104</div>`)[0];
+                popup_4fdec684349f6817a0afc2c4920879b4.setContent(html_daf15c065e1d3ad26149f7ea88a7f98d);
+            
+        
+
+        marker_71fcdc7e2f5d43c7e8f7e806e15d618a.bindPopup(popup_4fdec684349f6817a0afc2c4920879b4)
+        ;
+
+        
+    
+    
+            marker_71fcdc7e2f5d43c7e8f7e806e15d618a.bindTooltip(
+                `<div>
+                     Sutter3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cc98332f7d5341f644b8e6059752e4d = L.marker(
+                [36.2516475, -118.852583],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_2c3e62c141430f668827e7ba2ab50e2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_972fef5b6b6f72fbe14e7351172517e8 = $(`<div id="html_972fef5b6b6f72fbe14e7351172517e8" style="width: 100.0%; height: 100.0%;">Tulare4 County<br>Violent Crime: 383</div>`)[0];
+                popup_2c3e62c141430f668827e7ba2ab50e2f.setContent(html_972fef5b6b6f72fbe14e7351172517e8);
+            
+        
+
+        marker_2cc98332f7d5341f644b8e6059752e4d.bindPopup(popup_2c3e62c141430f668827e7ba2ab50e2f)
+        ;
+
+        
+    
+    
+            marker_2cc98332f7d5341f644b8e6059752e4d.bindTooltip(
+                `<div>
+                     Tulare4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75a22f8048b66fcf13c778ca8bf3929d = L.marker(
+                [34.4458248, -119.0779359],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_079c6e08db4a74e85f21ac52566890c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9230e8a78d6bd3cb8d9ddbbe54df93b3 = $(`<div id="html_9230e8a78d6bd3cb8d9ddbbe54df93b3" style="width: 100.0%; height: 100.0%;">Ventura County<br>Violent Crime: 169</div>`)[0];
+                popup_079c6e08db4a74e85f21ac52566890c7.setContent(html_9230e8a78d6bd3cb8d9ddbbe54df93b3);
+            
+        
+
+        marker_75a22f8048b66fcf13c778ca8bf3929d.bindPopup(popup_079c6e08db4a74e85f21ac52566890c7)
+        ;
+
+        
+    
+    
+            marker_75a22f8048b66fcf13c778ca8bf3929d.bindTooltip(
+                `<div>
+                     Ventura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a6d42a195150ca2c0288af0d62b4929 = L.marker(
+                [38.7184542, -121.9059001],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_e43dcc1677eceeb28ad605195001cadb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c1dfb9448cf040fe994762a379c20b4 = $(`<div id="html_0c1dfb9448cf040fe994762a379c20b4" style="width: 100.0%; height: 100.0%;">Yolo County<br>Violent Crime: 87</div>`)[0];
+                popup_e43dcc1677eceeb28ad605195001cadb.setContent(html_0c1dfb9448cf040fe994762a379c20b4);
+            
+        
+
+        marker_3a6d42a195150ca2c0288af0d62b4929.bindPopup(popup_e43dcc1677eceeb28ad605195001cadb)
+        ;
+
+        
+    
+    
+            marker_3a6d42a195150ca2c0288af0d62b4929.bindTooltip(
+                `<div>
+                     Yolo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70cc6375766a61bc7abbb32613c1c4e5 = L.marker(
+                [39.2839755, -121.3556818],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_dc7f5244cb5c6ba7c3e52c649927caba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_644f71040fa8cec6bd140741539959b3 = $(`<div id="html_644f71040fa8cec6bd140741539959b3" style="width: 100.0%; height: 100.0%;">Yuba County<br>Violent Crime: 227</div>`)[0];
+                popup_dc7f5244cb5c6ba7c3e52c649927caba.setContent(html_644f71040fa8cec6bd140741539959b3);
+            
+        
+
+        marker_70cc6375766a61bc7abbb32613c1c4e5.bindPopup(popup_dc7f5244cb5c6ba7c3e52c649927caba)
+        ;
+
+        
+    
+    
+            marker_70cc6375766a61bc7abbb32613c1c4e5.bindTooltip(
+                `<div>
+                     Yuba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4396a555590d93311bb2aef529a93bf4 = L.marker(
+                [38.5893934, -119.8345013],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_5ca77d3a092619a1a09ed84c0d3c9904 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c569b79874aeab45034b88f1e93e28b = $(`<div id="html_9c569b79874aeab45034b88f1e93e28b" style="width: 100.0%; height: 100.0%;">Alpine County<br>Violent Crime: 39</div>`)[0];
+                popup_5ca77d3a092619a1a09ed84c0d3c9904.setContent(html_9c569b79874aeab45034b88f1e93e28b);
+            
+        
+
+        marker_4396a555590d93311bb2aef529a93bf4.bindPopup(popup_5ca77d3a092619a1a09ed84c0d3c9904)
+        ;
+
+        
+    
+    
+            marker_4396a555590d93311bb2aef529a93bf4.bindTooltip(
+                `<div>
+                     Alpine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64ebe6c8758809908ed2ae58bdbf35f8 = L.marker(
+                [38.449089, -120.5911018],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_663070553ea7e92525584d1515b09ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ad3c39780640990ca41b40310f90afd = $(`<div id="html_0ad3c39780640990ca41b40310f90afd" style="width: 100.0%; height: 100.0%;">Amador County<br>Violent Crime: 350</div>`)[0];
+                popup_663070553ea7e92525584d1515b09ef8.setContent(html_0ad3c39780640990ca41b40310f90afd);
+            
+        
+
+        marker_64ebe6c8758809908ed2ae58bdbf35f8.bindPopup(popup_663070553ea7e92525584d1515b09ef8)
+        ;
+
+        
+    
+    
+            marker_64ebe6c8758809908ed2ae58bdbf35f8.bindTooltip(
+                `<div>
+                     Amador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc508e239c772dfe6b9b23b20af9790a = L.marker(
+                [38.2558181, -120.4981492],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_840ee3e6c8ea2c214ec311d1dc29b2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2543fc28994b23adcf94a6bf59bf8ec9 = $(`<div id="html_2543fc28994b23adcf94a6bf59bf8ec9" style="width: 100.0%; height: 100.0%;">Calaveras County<br>Violent Crime: 3111</div>`)[0];
+                popup_840ee3e6c8ea2c214ec311d1dc29b2d1.setContent(html_2543fc28994b23adcf94a6bf59bf8ec9);
+            
+        
+
+        marker_dc508e239c772dfe6b9b23b20af9790a.bindPopup(popup_840ee3e6c8ea2c214ec311d1dc29b2d1)
+        ;
+
+        
+    
+    
+            marker_dc508e239c772dfe6b9b23b20af9790a.bindTooltip(
+                `<div>
+                     Calaveras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ad8a7feca5abaa187aafeeeec4f05d2 = L.marker(
+                [39.1465578, -122.2209563],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_fe7d9cd8044eba19cb81224b29504971 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5cc6ae007601e04a908637a01f675fd = $(`<div id="html_a5cc6ae007601e04a908637a01f675fd" style="width: 100.0%; height: 100.0%;">Colusa County<br>Violent Crime: 333</div>`)[0];
+                popup_fe7d9cd8044eba19cb81224b29504971.setContent(html_a5cc6ae007601e04a908637a01f675fd);
+            
+        
+
+        marker_1ad8a7feca5abaa187aafeeeec4f05d2.bindPopup(popup_fe7d9cd8044eba19cb81224b29504971)
+        ;
+
+        
+    
+    
+            marker_1ad8a7feca5abaa187aafeeeec4f05d2.bindTooltip(
+                `<div>
+                     Colusa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6569f3f250fea7bb30019f609e749727 = L.marker(
+                [41.7261767, -123.91328],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_d666def54bf3a509a12527c582bdf6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6966a8f722c318a175a3f7dabccd954b = $(`<div id="html_6966a8f722c318a175a3f7dabccd954b" style="width: 100.0%; height: 100.0%;">Del Norte County<br>Violent Crime: 3101</div>`)[0];
+                popup_d666def54bf3a509a12527c582bdf6e0.setContent(html_6966a8f722c318a175a3f7dabccd954b);
+            
+        
+
+        marker_6569f3f250fea7bb30019f609e749727.bindPopup(popup_d666def54bf3a509a12527c582bdf6e0)
+        ;
+
+        
+    
+    
+            marker_6569f3f250fea7bb30019f609e749727.bindTooltip(
+                `<div>
+                     Del Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_245c0d1bacb3f3380e09bb3ed1eee0db = L.marker(
+                [39.5912766, -122.3778662],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_1c6cbdb09a0efbfe103e2c0f8912e73f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a01b03c20128978104ce95d1f54a629c = $(`<div id="html_a01b03c20128978104ce95d1f54a629c" style="width: 100.0%; height: 100.0%;">Glenn3 County<br>Violent Crime: 44</div>`)[0];
+                popup_1c6cbdb09a0efbfe103e2c0f8912e73f.setContent(html_a01b03c20128978104ce95d1f54a629c);
+            
+        
+
+        marker_245c0d1bacb3f3380e09bb3ed1eee0db.bindPopup(popup_1c6cbdb09a0efbfe103e2c0f8912e73f)
+        ;
+
+        
+    
+    
+            marker_245c0d1bacb3f3380e09bb3ed1eee0db.bindTooltip(
+                `<div>
+                     Glenn3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c01e7e1db1e7330b7f43a7a9ddcfb6b = L.marker(
+                [40.5997415, -123.8997734],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_dcda9fb79bce836feb06a87c45ea04dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f43c22a5ead9275af8d94b6a6bcbcdc9 = $(`<div id="html_f43c22a5ead9275af8d94b6a6bcbcdc9" style="width: 100.0%; height: 100.0%;">Humboldt County<br>Violent Crime: 3265</div>`)[0];
+                popup_dcda9fb79bce836feb06a87c45ea04dd.setContent(html_f43c22a5ead9275af8d94b6a6bcbcdc9);
+            
+        
+
+        marker_1c01e7e1db1e7330b7f43a7a9ddcfb6b.bindPopup(popup_dcda9fb79bce836feb06a87c45ea04dd)
+        ;
+
+        
+    
+    
+            marker_1c01e7e1db1e7330b7f43a7a9ddcfb6b.bindTooltip(
+                `<div>
+                     Humboldt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0f51939c49a4a45b3a43cf325232bc9 = L.marker(
+                [36.5595325, -117.4074712],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_00ebe27ccd694a8e6a7b639d024b849c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ea4d859aa097b552a5d54adc5730d6c = $(`<div id="html_0ea4d859aa097b552a5d54adc5730d6c" style="width: 100.0%; height: 100.0%;">Inyo3 County<br>Violent Crime: 58</div>`)[0];
+                popup_00ebe27ccd694a8e6a7b639d024b849c.setContent(html_0ea4d859aa097b552a5d54adc5730d6c);
+            
+        
+
+        marker_a0f51939c49a4a45b3a43cf325232bc9.bindPopup(popup_00ebe27ccd694a8e6a7b639d024b849c)
+        ;
+
+        
+    
+    
+            marker_a0f51939c49a4a45b3a43cf325232bc9.bindTooltip(
+                `<div>
+                     Inyo3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2a1712c59a161adbf1de85ea50f3ac0 = L.marker(
+                [39.0505411, -122.7776556],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_c24c2663c7e79817cde527ea6e1cbb0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_071bc1edaf35cb8adf11eb2b3537f1ab = $(`<div id="html_071bc1edaf35cb8adf11eb2b3537f1ab" style="width: 100.0%; height: 100.0%;">Lake3 County<br>Violent Crime: 200</div>`)[0];
+                popup_c24c2663c7e79817cde527ea6e1cbb0b.setContent(html_071bc1edaf35cb8adf11eb2b3537f1ab);
+            
+        
+
+        marker_b2a1712c59a161adbf1de85ea50f3ac0.bindPopup(popup_c24c2663c7e79817cde527ea6e1cbb0b)
+        ;
+
+        
+    
+    
+            marker_b2a1712c59a161adbf1de85ea50f3ac0.bindTooltip(
+                `<div>
+                     Lake3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb6d3506286490866c1df6b8e2e80789 = L.marker(
+                [40.7685579, -120.730998],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_943e74af2c25d2c7c956ee8a2993cac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e194f9b8bcd4362b932849ea9c0b068b = $(`<div id="html_e194f9b8bcd4362b932849ea9c0b068b" style="width: 100.0%; height: 100.0%;">Lassen3 County<br>Violent Crime: 47</div>`)[0];
+                popup_943e74af2c25d2c7c956ee8a2993cac8.setContent(html_e194f9b8bcd4362b932849ea9c0b068b);
+            
+        
+
+        marker_fb6d3506286490866c1df6b8e2e80789.bindPopup(popup_943e74af2c25d2c7c956ee8a2993cac8)
+        ;
+
+        
+    
+    
+            marker_fb6d3506286490866c1df6b8e2e80789.bindTooltip(
+                `<div>
+                     Lassen3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_374e4f4646ee9d563bef372e29c9e025 = L.marker(
+                [37.570148, -119.9036592],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_b6ff4833d69d5f10b0cb205b3f3aceaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10ea545a47031f8416fd159a6ee2f1dd = $(`<div id="html_10ea545a47031f8416fd159a6ee2f1dd" style="width: 100.0%; height: 100.0%;">Mariposa County<br>Violent Crime: 89</div>`)[0];
+                popup_b6ff4833d69d5f10b0cb205b3f3aceaf.setContent(html_10ea545a47031f8416fd159a6ee2f1dd);
+            
+        
+
+        marker_374e4f4646ee9d563bef372e29c9e025.bindPopup(popup_b6ff4833d69d5f10b0cb205b3f3aceaf)
+        ;
+
+        
+    
+    
+            marker_374e4f4646ee9d563bef372e29c9e025.bindTooltip(
+                `<div>
+                     Mariposa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0115d6861fd0516ff28412138aa6aea = L.marker(
+                [39.3176491, -123.4126399],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_4b16d13001713127e8cab7b35689e3f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64b21af99015bd273a15f044e147cb51 = $(`<div id="html_64b21af99015bd273a15f044e147cb51" style="width: 100.0%; height: 100.0%;">Mendocino County<br>Violent Crime: 324</div>`)[0];
+                popup_4b16d13001713127e8cab7b35689e3f8.setContent(html_64b21af99015bd273a15f044e147cb51);
+            
+        
+
+        marker_a0115d6861fd0516ff28412138aa6aea.bindPopup(popup_4b16d13001713127e8cab7b35689e3f8)
+        ;
+
+        
+    
+    
+            marker_a0115d6861fd0516ff28412138aa6aea.bindTooltip(
+                `<div>
+                     Mendocino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fc009ac07285f7b5658164c63cb396b = L.marker(
+                [41.5450487, -120.7435998],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_97efc7dd17c7b9f7747bbfb7987e4b7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_682d40e6ce15d588d66fdbedeca5b5b7 = $(`<div id="html_682d40e6ce15d588d66fdbedeca5b5b7" style="width: 100.0%; height: 100.0%;">Modoc3 County<br>Violent Crime: 34</div>`)[0];
+                popup_97efc7dd17c7b9f7747bbfb7987e4b7c.setContent(html_682d40e6ce15d588d66fdbedeca5b5b7);
+            
+        
+
+        marker_9fc009ac07285f7b5658164c63cb396b.bindPopup(popup_97efc7dd17c7b9f7747bbfb7987e4b7c)
+        ;
+
+        
+    
+    
+            marker_9fc009ac07285f7b5658164c63cb396b.bindTooltip(
+                `<div>
+                     Modoc3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b7fdf9b4aee371778f7401889fa1506 = L.marker(
+                [37.9533927, -118.9398758],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_e6d3cea3ef2d6793bc77461e2fa4f6f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4786b02578f39ac6b799b46099da7001 = $(`<div id="html_4786b02578f39ac6b799b46099da7001" style="width: 100.0%; height: 100.0%;">Mono3 County<br>Violent Crime: 14</div>`)[0];
+                popup_e6d3cea3ef2d6793bc77461e2fa4f6f4.setContent(html_4786b02578f39ac6b799b46099da7001);
+            
+        
+
+        marker_4b7fdf9b4aee371778f7401889fa1506.bindPopup(popup_e6d3cea3ef2d6793bc77461e2fa4f6f4)
+        ;
+
+        
+    
+    
+            marker_4b7fdf9b4aee371778f7401889fa1506.bindTooltip(
+                `<div>
+                     Mono3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98068ea16c4c6c01195b04ba6da0c140 = L.marker(
+                [39.3540335, -120.8089843],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_c2082989cfb91d81a7b7c35a76a9cf87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf10581069654b062cb24b322028db15 = $(`<div id="html_bf10581069654b062cb24b322028db15" style="width: 100.0%; height: 100.0%;">Nevada County<br>Violent Crime: 139</div>`)[0];
+                popup_c2082989cfb91d81a7b7c35a76a9cf87.setContent(html_bf10581069654b062cb24b322028db15);
+            
+        
+
+        marker_98068ea16c4c6c01195b04ba6da0c140.bindPopup(popup_c2082989cfb91d81a7b7c35a76a9cf87)
+        ;
+
+        
+    
+    
+            marker_98068ea16c4c6c01195b04ba6da0c140.bindTooltip(
+                `<div>
+                     Nevada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f631a695312b68b07c11437ea37aea5 = L.marker(
+                [39.9430988, -120.8059521],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_1432da2159fa2e35cea5a89f823fac90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9043d94e2dee75e0d1d17751b0d171d2 = $(`<div id="html_9043d94e2dee75e0d1d17751b0d171d2" style="width: 100.0%; height: 100.0%;">Plumas3 County<br>Violent Crime: 82</div>`)[0];
+                popup_1432da2159fa2e35cea5a89f823fac90.setContent(html_9043d94e2dee75e0d1d17751b0d171d2);
+            
+        
+
+        marker_1f631a695312b68b07c11437ea37aea5.bindPopup(popup_1432da2159fa2e35cea5a89f823fac90)
+        ;
+
+        
+    
+    
+            marker_1f631a695312b68b07c11437ea37aea5.bindTooltip(
+                `<div>
+                     Plumas3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f754857abe48c483f1a2dc0aebcd9eb = L.marker(
+                [39.5849065, -120.5305731],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_0044e3ea1633d6f7d4d305efc98ba502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b9b011a5467dd925187062c2e2f7a5c = $(`<div id="html_6b9b011a5467dd925187062c2e2f7a5c" style="width: 100.0%; height: 100.0%;">Sierra County<br>Violent Crime: 3</div>`)[0];
+                popup_0044e3ea1633d6f7d4d305efc98ba502.setContent(html_6b9b011a5467dd925187062c2e2f7a5c);
+            
+        
+
+        marker_5f754857abe48c483f1a2dc0aebcd9eb.bindPopup(popup_0044e3ea1633d6f7d4d305efc98ba502)
+        ;
+
+        
+    
+    
+            marker_5f754857abe48c483f1a2dc0aebcd9eb.bindTooltip(
+                `<div>
+                     Sierra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f10b01303b3b6eb7b0ec51c9a5e0e96 = L.marker(
+                [41.6862466, -122.5360121],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_2140d7750034a5b069df352889f7635d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ad277877f59aa593c6fb300ea57cf32 = $(`<div id="html_4ad277877f59aa593c6fb300ea57cf32" style="width: 100.0%; height: 100.0%;">Siskiyou County<br>Violent Crime: 39</div>`)[0];
+                popup_2140d7750034a5b069df352889f7635d.setContent(html_4ad277877f59aa593c6fb300ea57cf32);
+            
+        
+
+        marker_7f10b01303b3b6eb7b0ec51c9a5e0e96.bindPopup(popup_2140d7750034a5b069df352889f7635d)
+        ;
+
+        
+    
+    
+            marker_7f10b01303b3b6eb7b0ec51c9a5e0e96.bindTooltip(
+                `<div>
+                     Siskiyou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99b8ec89fa5d426fd819dba4262bd6e7 = L.marker(
+                [40.1251334, -122.2015529],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_681fecfc7c316fa290b67aae5335dd3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fad0e875bddfeefb92bd6f95143bad2c = $(`<div id="html_fad0e875bddfeefb92bd6f95143bad2c" style="width: 100.0%; height: 100.0%;">Tehama County<br>Violent Crime: 167</div>`)[0];
+                popup_681fecfc7c316fa290b67aae5335dd3b.setContent(html_fad0e875bddfeefb92bd6f95143bad2c);
+            
+        
+
+        marker_99b8ec89fa5d426fd819dba4262bd6e7.bindPopup(popup_681fecfc7c316fa290b67aae5335dd3b)
+        ;
+
+        
+    
+    
+            marker_99b8ec89fa5d426fd819dba4262bd6e7.bindTooltip(
+                `<div>
+                     Tehama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7be21c1778f0db9ba387a1ae88dcf022 = L.marker(
+                [40.6053256, -123.171268],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_e623ea6f655b9fe4c6affa7c6a15f0fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35cda7dfc352d05c95d3698f90ba5ff8 = $(`<div id="html_35cda7dfc352d05c95d3698f90ba5ff8" style="width: 100.0%; height: 100.0%;">Trinity County<br>Violent Crime: 34</div>`)[0];
+                popup_e623ea6f655b9fe4c6affa7c6a15f0fa.setContent(html_35cda7dfc352d05c95d3698f90ba5ff8);
+            
+        
+
+        marker_7be21c1778f0db9ba387a1ae88dcf022.bindPopup(popup_e623ea6f655b9fe4c6affa7c6a15f0fa)
+        ;
+
+        
+    
+    
+            marker_7be21c1778f0db9ba387a1ae88dcf022.bindTooltip(
+                `<div>
+                     Trinity
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce1331c32d5a9d7084965ec194756e8b = L.marker(
+                [38.056944, -119.9919351],
+                {}
+            ).addTo(map_9a9cce5215e04f10b36d25b485f61956);
+        
+    
+        var popup_1efddfd8a0beb556ca5f743af0d2849e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd5f67840611463324acb85944c309c7 = $(`<div id="html_fd5f67840611463324acb85944c309c7" style="width: 100.0%; height: 100.0%;">Tuolumne County<br>Violent Crime: 3185</div>`)[0];
+                popup_1efddfd8a0beb556ca5f743af0d2849e.setContent(html_fd5f67840611463324acb85944c309c7);
+            
+        
+
+        marker_ce1331c32d5a9d7084965ec194756e8b.bindPopup(popup_1efddfd8a0beb556ca5f743af0d2849e)
+        ;
+
+        
+    
+    
+            marker_ce1331c32d5a9d7084965ec194756e8b.bindTooltip(
+                `<div>
+                     Tuolumne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
